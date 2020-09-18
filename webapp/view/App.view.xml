@@ -1,0 +1,18 @@
+<mvc:View controllerName="com.nuserlog.NeoUserlogon.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="Neo Current User login">
+					<content>
+						<VBox>
+						<Label text="DisplayName: {userModel>/displayName}"/>
+						<Label text="Email: {userModel>/email}"/>
+						<Label text="Firstname: {userModel>/firstName}"/>
+						<Label text="Lastname: {userModel>/lastName}"/>
+					</VBox>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell> 
+</mvc:View>
